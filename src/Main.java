@@ -1,9 +1,13 @@
 import game.Game;
+import materials.Coin;
+import materials.CoinState;
 import player.Player;
 
 public class Main {
 
   public static void main(String[] args) {
+
+
     Game game = new Game();
 
     game.addPlayer(new Player(1));
